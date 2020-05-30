@@ -1,0 +1,42 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    font-family: Century Gothic;
+}
+header{
+    background-image: url(../akhil.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+ul li{
+    float: left;
+    display: inline-box;
+    margin-top: 121px;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    border: 1px transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+}
